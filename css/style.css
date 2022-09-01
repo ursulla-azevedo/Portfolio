@@ -113,8 +113,50 @@ p {
 .row-images {
 }
 
+.images-home {
+  display: flex;
+}
+
 .images-about {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  body {
+    margin: 15px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 414px) {
+  .images-home {
+    display: none;
+  }
+
+  .images-about {
+    max-width: 85%;
+    margin-bottom: 15px;
+  }
 }

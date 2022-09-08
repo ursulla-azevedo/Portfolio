@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=Source+Serif+Pro:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -37,7 +37,277 @@
     <title>Home</title>
   </head>
   <body>
-    <h1>Title example</h1>
-    <p>Paragraph example</p>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="/images/logo-ua.png"
+            alt="Logo Úrsulla Azevedo"
+            class="logo-navbar"
+          />
+          Úrsulla Azevedo</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!-- Nav Center -->
+          <ul class="navbar-nav nav-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Web/app design</a></li>
+                <li><a class="dropdown-item" href="#">Branding</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Advertising</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Video</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Nav Right -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="block-hero">
+      <div class="container">
+        <div class="row gx-5 align-items-center">
+          <div class="col">
+            <h1 class="title-hero">Hello, I am Úrsulla!</h2>
+            <p>
+              I am a Visual Designer based in Portugal.
+              <br />
+              Let me know how I can help you and I will get in touch ASAP.
+            </p>
+            <br />
+            <a href="#" class="primary-button me-4">Contact me</a>
+            <a href="#" class="secondary-button">Portfolio</a>
+          </div>
+          <div class="col text-center img-hero-col">
+            <img
+              src="/images/logo-ua.png"
+              alt="Logo Úrsulla Azevedo"
+              class="img-hero"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What can I help you with -->
+    <div class="block-right bg-highlight">
+      <div class="container">
+        <div class="row gx-5 align-items-center">
+          <div class="col text-center img-hero-col">
+            <img
+              src="/images/logo-ua.png"
+              alt="Logo Úrsulla Azevedo"
+              class="img-hero"
+            />
+          </div>
+          <div class="col">
+            <h2>What can I help you with?</h2>
+            <p>
+              As a designer I provide different services to reach different
+              goals, here are some.
+            </p>
+            <br />
+
+            <!-- Grid Skills -->
+
+            <div class="container grid-skills">
+              <div class="row">
+                <div class="col">Img <br />Webdesign</div>
+                <div class="col">Img <br />Branding</div>
+                <div class="col">Img <br />Advertising</div>
+              </div>
+
+              <br />
+
+              <div class="row">
+                <div class="col">Img <br />App design</div>
+                <div class="col">Img <br />Social media design</div>
+                <div class="col">Img <br />Photo editing</div>
+              </div>
+            </div>
+
+            <!-- End -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What softwares do I use -->
+    <div class="block-left">
+      <div class="container">
+        <div class="row gx-5 align-items-center">
+          <div class="col">
+            <h2>What softwares do I use?</h2>
+            <p>
+              Those mentioned below are the main softwares I use for most
+              projects.
+            </p>
+            <br />
+
+            <!-- Grid Skills -->
+
+            <div class="container grid-skills">
+              <div class="row">
+                <div class="col">Img <br />Adobe Photoshop</div>
+                <div class="col">Img <br />Adobe Illustrator</div>
+                <div class="col">Img <br />Figma</div>
+              </div>
+
+              <br />
+
+              <div class="row">
+                <div class="col">Img <br />Adobe Lightroom</div>
+                <div class="col">Img <br />Adobe Premiere</div>
+                <div class="col">Img <br />Adobe InDesign</div>
+              </div>
+            </div>
+
+            <!-- End -->
+          </div>
+          <div class="col text-center img-hero-col">
+            <img
+              src="/images/logo-ua.png"
+              alt="Logo Úrsulla Azevedo"
+              class="img-hero"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured projects -->
+
+    <div class="block-center bg-highlight">
+
+<h2>Featured projects</h2>
+
+<div class="container featured-projects">
+  <div class="row">
+    <div class="col">Img</div>
+    <div class="col">Img</div>
+    <div class="col">Img</div>
+  </div>
+</div>
+
+<br>
+
+<a href="#" class="secondary-button">See more</a>
+
+
+    </div>
+
+    <!-- Contact Form -->
+
+        <div class="block-center">
+
+<h2>Let me know how I can help!</h2>
+<p>Feel free to get in touch if you have any questions or need to estimate your project. Make sure to add as much details as you want to the message. Talk to you soon!</p>
+
+<form>
+<div class="container featured-projects">
+  <div class="row">
+    <div class="col">
+      <p>Your Name</p>
+      <input type="text" placeholder="Enter your name here">
+
+      <br>
+
+      <p>Your e-mail</p>
+      <input type="text" placeholder="Enter your e-mail here">
+
+
+    </div>
+    <div class="col">
+      
+      <p>Subject</p>
+      <input type="text" placeholder="What do you want to talk about?">
+
+      <br>
+
+      <p>Message</p>
+      <input type="text" placeholder="Let me know how i can help">
+
+    </div>
+  </div>
+</div>
+
+<br>
+
+<input type="submit" value="Send message" class="primary-button">
+</form>
+
+
+
+    </div>
+
+    <!-- Footer -->
+
+    <hr>
+
+    <div class="container footer">
+      <div class="row">
+          <div class="col">
+
+      <img
+            src="/images/logo-ua.png"
+            alt="Logo Úrsulla Azevedo"
+            class="logo-navbar"
+          />
+          Úrsulla Azevedo
+            </div>
+
+          <div class="col">
+            ursullazevedo@gmail.com
+          </div>
+
+          <div class="col">
+            Img Img
+          </div>
+
+      </div>
+
+    </div>
+
+    <!--Finish-->
   </body>
 </html>

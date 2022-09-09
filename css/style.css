@@ -33,6 +33,12 @@ textarea {
   width: 500px;
 }
 
+i {
+  font-size: 30px;
+  margin: 0px 10px;
+  color: var(--primary-color);
+}
+
 .logo-navbar {
   max-height: 30px;
   margin-right: 15px;
@@ -100,6 +106,11 @@ textarea {
   border: none;
 }
 
+.primary-button:hover {
+  color: white;
+  font-weight: 700;
+}
+
 .secondary-button {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
@@ -107,6 +118,11 @@ textarea {
   padding: 15px 25px;
   text-decoration: none;
   font-size: 14px;
+}
+
+.secondary-button:hover {
+  color: var(--secondary-color);
+  font-weight: 700;
 }
 
 .grid-skills {
@@ -126,10 +142,40 @@ textarea {
 }
 
 .footer {
+  padding: 0px 30px;
   margin-bottom: 15px;
 }
 
+/* RESPONSIVENESS */
+
+@media (max-width: 1425px) {
+  .contact-form {
+    text-align: center;
+    padding: 20px 30px;
+  }
+}
+
 @media (max-width: 805px) {
+  input {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 250px;
+  }
+
+  textarea {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 250px;
+  }
+
+  i {
+    font-size: 20px;
+    margin: 0px 10px;
+    color: var(--primary-color);
+  }
+
   .img-hero-col {
     display: none;
   }
@@ -156,5 +202,20 @@ textarea {
 
   .img-section {
     max-width: 200px;
+  }
+
+  .contact-form {
+    text-align: center;
+    padding: 20px 30px;
+  }
+
+  .footer {
+    padding: 0px 30px;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .name-footer {
+    display: none;
   }
 }

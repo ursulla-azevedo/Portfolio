@@ -5,7 +5,9 @@
 }
 
 body {
+  font-weight: 300;
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
 h1 {
@@ -17,10 +19,18 @@ h2 {
   font-size: 30px;
 }
 
-p {
-  font-weight: 300;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+input {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 500px;
+}
+
+textarea {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 500px;
 }
 
 .logo-navbar {
@@ -77,6 +87,7 @@ p {
 .featured-img {
   max-width: 290px;
   border-radius: 15px;
+  margin: 10px;
 }
 
 .primary-button {
@@ -109,6 +120,11 @@ p {
   margin: 30px 0px;
 }
 
+.contact-form {
+  text-align: left;
+  padding: 50px 100px;
+}
+
 .footer {
   margin-bottom: 15px;
 }
@@ -116,5 +132,29 @@ p {
 @media (max-width: 805px) {
   .img-hero-col {
     display: none;
+  }
+
+  .block-hero {
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+  .block-left {
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+  .block-right {
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+  .block-center {
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+  .img-section {
+    max-width: 200px;
   }
 }

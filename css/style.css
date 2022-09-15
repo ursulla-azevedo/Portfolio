@@ -43,6 +43,14 @@ i {
   color: var(--primary-color);
 }
 
+ul {
+  padding: 0px;
+}
+
+li {
+  display: inline;
+}
+
 .logo-navbar {
   max-height: 30px;
   margin-right: 15px;
@@ -92,6 +100,16 @@ i {
 
 .img-hero {
   max-width: 280px;
+}
+
+.top-portfolio {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(222, 174, 105, 1) 50%
+  );
 }
 
 .img-section {
@@ -160,6 +178,34 @@ i {
 
 .input-description {
   color: var(--secondary-color);
+}
+
+.padding-short {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.portfolio-categories {
+  margin-top: 30px;
+}
+
+.portfolio-links {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: var(--secondary-color);
+}
+
+.portfolio-links:hover {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.portfolio-links:visited {
+  color: var(--secondary-color);
+}
+
+.projects.block-center {
+  padding: 30px 30px;
 }
 
 .footer {
@@ -238,5 +284,10 @@ i {
 
   .name-footer {
     display: none;
+  }
+
+  .padding-short {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }

@@ -72,6 +72,15 @@ i {
   text-align: center;
 }
 
+.about-me.block-center {
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.block-center p {
+  margin-bottom: 0px;
+}
+
 .bg-highlight {
   background-color: var(--bg-highlight);
 }
@@ -113,6 +122,10 @@ i {
 .primary-button:hover {
   color: white;
   font-weight: 700;
+}
+
+.space-bottom {
+  padding-bottom: 40px;
 }
 
 .secondary-button {

@@ -208,6 +208,22 @@ li {
   padding: 30px 30px;
 }
 
+.project-page-title {
+  margin: 40px;
+  text-align: center;
+}
+
+.project-block {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-page-image {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
 .footer {
   padding: 0px 30px;
   margin-bottom: 15px;
